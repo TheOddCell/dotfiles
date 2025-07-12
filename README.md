@@ -14,3 +14,5 @@ requires:
 - wofi
 
 tested on bedrock linux with everything coming from arch.
+
+requirement that you must supply: bedrock.png in ~/Pictures/, i just put a picture of bedrock (minecraft)
