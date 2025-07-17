@@ -1,0 +1,31 @@
+* {
+  font-family: "Cascadia Code PL", monospace;
+  font-size: 13px;
+}
+
+window#waybar {
+  background-color: rgba(10, 10, 10, 0.92);
+  border-radius: 12px;
+  border: 1px solid rgba(100, 100, 100, 0.2);
+  margin: 10px;
+  padding: 5px;
+  color: #eeeeee;
+}
+
+#hyprland-workspaces button {
+  padding: 0 10px;
+  margin: 0 2px;
+  border-radius: 6px;
+  background: transparent;
+  color: #ffffff;
+}
+
+#hyprland-workspaces button.active {
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+
+#network, #bluetooth, #clock, #tray {
+  padding: 0 10px;
+}
+

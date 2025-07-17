@@ -1,0 +1,57 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin-top": 10,
+  "margin-left": 10,
+  "margin-right": 10,
+
+  "modules-left": ["custom/spacer1", "custom/launcher", "custom/spacer2", "hyprland/window"],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": ["tray", "bluetooth", "network", "clock"],
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "hyprctl dispatch workspace {id}"
+  },
+
+  "clock": {
+    "format": "{:%a %b %d  %I:%M %p}"
+  },
+
+  "network": {
+    "format-wifi": " {essid} ({signalStrength}%)",
+    "format-ethernet": "󰈀 {ifname}",
+    "format-disconnected": "⚠ Disconnected"
+  },
+
+  "bluetooth": {
+    "format": " {status}",
+    "format-disabled": " Disabled",
+    "format-disconnected": " Off",
+    "format-connected": " {device_alias}"
+  },
+
+  "tray": {
+    "icon-size": 16,
+    "spacing": 10
+  },
+  
+  "user": {
+    "format": "{user}"
+  },
+  "custom/spacer1": {
+    "format": " ",
+    "tooltip": false
+  },
+  "custom/spacer2": {
+    "format": " ",
+    "tooltip": false
+  },
+  "hyprland/window": {},
+  "custom/launcher": {
+    "format": "■",
+    "tooltip": "Open Launcher",
+    "on-click": "$HOME/bin/wofi-launcher",
+    "exec-on-event": false
+  }
+}

@@ -1,0 +1,16 @@
+* {
+  font-family: "Cascadia Code PL", monospace;
+  font-size: 14px;
+  color: #eeeeee;
+  background-color: #111111;
+}
+
+#entry {
+  padding: 5px;
+}
+
+#entry:selected {
+  background-color: #333333;
+  color: #ffffff;
+}
+
