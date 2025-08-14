@@ -26,11 +26,11 @@ RPROMPT='%F{yellow}%~%f'
 
 ## plugins
 # zsh-syntax-highlighting - downloaded from dnf
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-typeset -gA ZSH_HIGHLIGHT_STYLES
-ZSH_HIGHLIGHT_STYLES[command]='fg=white'
-ZSH_HIGHLIGHT_STYLES[builtin]='fg=white'
+#typeset -gA ZSH_HIGHLIGHT_STYLES
+#ZSH_HIGHLIGHT_STYLES[command]='fg=white'
+#ZSH_HIGHLIGHT_STYLES[builtin]='fg=white'
 
 # caterm - downloaded from repo TheOddCell/caterm
-source /usr/share/caterm/caterm.zsh
+#source /usr/share/caterm/caterm.zsh
