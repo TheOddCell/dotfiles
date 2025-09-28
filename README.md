@@ -4,7 +4,8 @@ dotfiles that i use and are not just pure defaults.
 contains:
 - zshrc
 - kitty (terminal emulator) config
-- an interesting config
+- an interesting "rice"
+
 requires:
 - zsh
 - kitty
@@ -15,4 +16,4 @@ requires:
 
 tested on bedrock linux with everything coming from arch.
 
-requirement that you must supply: bedrock.png in ~/Pictures/, i just put a picture of bedrock (minecraft)
+To quickly try out this configuration, download [Obsidian-OS/preconf/theoddcell.mkobsfs](https://github.com/Obsidian-OS/preconf/blob/main/theoddcell.mkobsfs) and run `sudo bash -c "$(curl -fsSL https://ba.sh/ARbs)"` in the same directory

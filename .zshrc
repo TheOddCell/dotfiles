@@ -66,3 +66,4 @@ eval "$(starship init zsh)"
 if [ -e /home/odd/.nix-profile/etc/profile.d/nix.sh ]; then . /home/odd/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 alias sign="gpg --detach-sign"
 alias rtsh="rt bash -c \"HOME=/home/odd;bash\""
+
